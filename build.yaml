@@ -24,16 +24,16 @@ include:
   - board: nice_nano//zmk
     shield: corney_island_right nice_view
     artifact-name: corney_island_right
-  - board: nice_nano//zmk
-    shield: corney_island_left nice_view
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: corney_island_left_studio
-  - board: nice_nano//zmk
-    shield: corney_island_right nice_view
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: corney_island_right_studio
+  # - board: nice_nano//zmk
+  #   shield: corney_island_left nice_view
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: corney_island_left_studio
+  # - board: nice_nano//zmk
+  #   shield: corney_island_right nice_view
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: corney_island_right_studio
   - board: nice_nano//zmk
     shield: corney_island_left nice_view
     snippet: zmk-usb-logging
