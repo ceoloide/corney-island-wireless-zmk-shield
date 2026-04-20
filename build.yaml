@@ -50,3 +50,6 @@ include:
     shield: corney_island_right nice_view
     cmake-args: -DCONFIG_ZMK_BLE_EXPERIMENTAL_CONN=y
     artifact-name: corney_island_right_ble_experimental
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: corney_island_settings_reset
