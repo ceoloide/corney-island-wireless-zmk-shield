@@ -8,6 +8,7 @@ exposes: [nice_view_header]
 features:
   - keys
   - display
+  - studio
 siblings:
   - corney_island_left
   - corney_island_right
